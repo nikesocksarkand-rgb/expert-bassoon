@@ -5,7 +5,7 @@ from datetime import datetime
 import sys
 
 # ТОКЕН - ЗАМЕНИ НА СВОЙ!
-TOKEN = "ТВОЙ_ТОКЕН_СЮДА"
+TOKEN = "8894106518:AAGt2sdDHxxd34pKeIvXOodDoPqKNrJt4no"
 
 # Проверка токена
 if TOKEN == "ТВОЙ_ТОКЕН_СЮДА":
