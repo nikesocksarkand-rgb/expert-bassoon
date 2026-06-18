@@ -4,7 +4,13 @@ import os
 from datetime import datetime
 import sys
 
-TOKEN = "8894106518:AAGt2sdDHxxd34pKeIvXOodDoPqKNrJt4no"  # ЗАМЕНИ!
+# ТОКЕН - ЗАМЕНИ НА СВОЙ!
+TOKEN = "ТВОЙ_ТОКЕН_СЮДА"
+
+# Проверка токена
+if TOKEN == "ТВОЙ_ТОКЕН_СЮДА":
+    print("❌ ОШИБКА: Ты не заменил токен!")
+    sys.exit(1)
 
 try:
     bot = telebot.TeleBot(TOKEN)
